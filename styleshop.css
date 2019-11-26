@@ -1,0 +1,91 @@
+h1{
+	font-family: CURSIVE;
+}
+h2,h3,h4 {
+	font-family:"Montserrat","微軟正黑體",Arial, sans-serif, 'icomoon';
+	text-align: left;
+}
+/*p{
+	font-weight:bold;
+}*/
+d.p11{
+	font-family: CORBEL;	
+   /*text-align:justify; */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #212121;
+	font-family: sans-serif;
+	background-color: #FAFAFA;
+}
+
+.container {
+	padding: 8px;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 800px;
+}
+
+#basket {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #1b1b1bde;
+	width: 370px;
+	min-height: 100px;
+	color: white;
+	padding: 8px;
+}
+	
+.header {
+	padding: 20px;
+	background-color: #080808;
+	color: white;
+}
+	
+.products {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.product {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	width: 30%;
+	padding: 8px;
+	height: 600px;
+	background-color: white;
+	margin-right: 15px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+	
+.product img {
+	width: 100%;
+}
+
+.add-to-basket-button {
+	width: 100%;
+	color: white;
+	padding: 10px;
+	background-color: #424242; 
+	/*#6A1B9A;*/
+	border-radius: 8px;
+	border: none;
+	margin-top: 5px;
+	text-transform: uppercase;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.62);
+	cursor: pointer;
+	font-family:"Montserrat","微軟正黑體",Arial, sans-serif, 'icomoon';
+}
+
+.add-to-basket-button:hover {
+	background-color: #b71c1c;/*#8E24AA;*/
+}
